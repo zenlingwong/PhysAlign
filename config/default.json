@@ -1,0 +1,16 @@
+{
+  "adapter": {
+    "alpha": 8.0,
+    "total_rank": 8,
+    "energy_threshold": 0.999
+  },
+  "physics": {
+    "response_target": "observed",
+    "response_scale": 1.0
+  },
+  "update": {
+    "physics_ratio": 0.1,
+    "optimizer": "AdamW",
+    "projection": "actual_update_joint_cone"
+  }
+}
